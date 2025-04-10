@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Lancer TestJavaFX",
+        "request": "launch",
+        "mainClass": "TestJavaFX",
+        "vmArgs": "--module-path \"C:\\javafx-sdk-21.0.6\\lib\" --add-modules javafx.controls"
+      }
+    ]
+  }
+  
