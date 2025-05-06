@@ -1,13 +1,12 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "type": "java",
-        "name": "Lancer TestJavaFX",
-        "request": "launch",
-        "mainClass": "TestJavaFX",
-        "vmArgs": "--module-path \"C:\\javafx-sdk-21.0.6\\lib\" --add-modules javafx.controls"
-      }
-    ]
-  }
-  
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Lancer JavaFX + JSON",
+      "request": "launch",
+      "mainClass": "TestVelib",
+      "vmArgs": "--module-path C:/Programmes/Java/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml -cp lib/json-20210307.jar"
+    }
+  ]
+}
